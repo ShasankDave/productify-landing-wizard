@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   useEffect(() => {
-    document.title = "ProductifyAI - AI-Powered Productivity Platform";
+    document.title = "ProductifyAI - AI Product Management & Strategy";
   }, []);
 
   return (

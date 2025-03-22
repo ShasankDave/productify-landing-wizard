@@ -37,9 +37,10 @@ const Navbar = () => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
-            <a href="#features" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Features</a>
+            <a href="#features" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Services</a>
             <a href="#testimonials" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Testimonials</a>
-            <a href="#pricing" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Pricing</a>
+            <a href="#pricing" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Packages</a>
+            <a href="#content" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Content</a>
           </div>
 
           {/* Call to Action Button */}
@@ -48,7 +49,7 @@ const Navbar = () => {
               href="#cta"
               className="px-5 py-2.5 bg-productify-blue text-white rounded-md hover:bg-blue-600 transition-all duration-200 shadow-sm hover:shadow"
             >
-              Get Started
+              Contact Me
             </a>
           </div>
 
@@ -75,7 +76,7 @@ const Navbar = () => {
             className="text-productify-dark hover:text-productify-blue py-2 text-lg"
             onClick={() => setMobileMenuOpen(false)}
           >
-            Features
+            Services
           </a>
           <a 
             href="#testimonials" 
@@ -89,14 +90,21 @@ const Navbar = () => {
             className="text-productify-dark hover:text-productify-blue py-2 text-lg"
             onClick={() => setMobileMenuOpen(false)}
           >
-            Pricing
+            Packages
+          </a>
+          <a 
+            href="#content" 
+            className="text-productify-dark hover:text-productify-blue py-2 text-lg"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            Content
           </a>
           <a
             href="#cta"
             className="px-5 py-2.5 bg-productify-blue text-white rounded-md hover:bg-blue-600 transition-all duration-200 mx-auto"
             onClick={() => setMobileMenuOpen(false)}
           >
-            Get Started
+            Contact Me
           </a>
         </div>
       </div>

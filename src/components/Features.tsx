@@ -1,38 +1,38 @@
 
 import { useEffect, useRef } from 'react';
-import { Brain, Zap, Clock, PenTool, Shield, RefreshCw } from 'lucide-react';
+import { Lightbulb, PieChart, TrendingUp, Book, Briefcase, Users } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const features = [
   {
-    icon: <Brain className="w-8 h-8 text-productify-blue" />,
-    title: "AI-Powered Insights",
-    description: "Leverage advanced machine learning to analyze your workflow and receive personalized optimization suggestions.",
+    icon: <Lightbulb className="w-8 h-8 text-productify-blue" />,
+    title: "AI Strategy Consulting",
+    description: "Strategic guidance on AI implementation, identifying opportunities, and creating roadmaps for AI transformation in your business.",
   },
   {
-    icon: <Zap className="w-8 h-8 text-productify-blue" />,
-    title: "Automated Task Management",
-    description: "Let our AI handle your repetitive tasks while you focus on the creative and strategic aspects of your work.",
+    icon: <PieChart className="w-8 h-8 text-productify-blue" />,
+    title: "Product Management",
+    description: "End-to-end AI product development from ideation to market launch, including requirements gathering and feature prioritization.",
   },
   {
-    icon: <Clock className="w-8 h-8 text-productify-blue" />,
-    title: "Smart Time Tracking",
-    description: "Track your productive hours automatically and receive reports on where you spend your time most efficiently.",
+    icon: <TrendingUp className="w-8 h-8 text-productify-blue" />,
+    title: "Market Analysis",
+    description: "Comprehensive AI landscape analysis, competitor benchmarking, and technology trend forecasting to keep you ahead of the curve.",
   },
   {
-    icon: <PenTool className="w-8 h-8 text-productify-blue" />,
-    title: "Customizable Workflows",
-    description: "Tailor the platform to your needs with flexible automation rules and integrations with your favorite tools.",
+    icon: <Book className="w-8 h-8 text-productify-blue" />,
+    title: "Content Creation",
+    description: "Thought leadership articles, case studies, and technical content that positions you as an authority in the AI space.",
   },
   {
-    icon: <Shield className="w-8 h-8 text-productify-blue" />,
-    title: "Privacy-Focused Design",
-    description: "Your data stays yours. Our systems are designed with privacy at the core, ensuring your information is always secure.",
+    icon: <Briefcase className="w-8 h-8 text-productify-blue" />,
+    title: "Executive Advisory",
+    description: "C-level guidance on AI governance, ethics, and organizational change management to support AI initiatives.",
   },
   {
-    icon: <RefreshCw className="w-8 h-8 text-productify-blue" />,
-    title: "Continuous Learning",
-    description: "The more you use ProductifyAI, the smarter it gets, constantly adapting to your evolving workflow patterns.",
+    icon: <Users className="w-8 h-8 text-productify-blue" />,
+    title: "Workshop Facilitation",
+    description: "Interactive sessions to align teams, brainstorm AI use cases, and develop practical implementation plans.",
   },
 ];
 
@@ -70,10 +70,10 @@ const Features = () => {
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Powerful Features to <span className="gradient-text">Transform</span> Your Workflow
+            <span className="gradient-text">Expert Services</span> in AI Strategy & Product
           </h2>
           <p className="text-lg text-productify-gray max-w-2xl mx-auto">
-            Discover how ProductifyAI's innovative features can revolutionize the way you work and boost your productivity.
+            Specialized consulting and content creation to help you navigate the complex world of AI and build successful products.
           </p>
         </div>
 
