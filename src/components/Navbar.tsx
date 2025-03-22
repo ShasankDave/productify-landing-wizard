@@ -35,35 +35,28 @@ const Navbar = () => {
             <span className="text-2xl font-bold text-productify-dark">Productify<span className="text-productify-blue">AI</span></span>
           </a>
 
-          {/* Desktop Navigation */}
+          {/* Desktop Navigation - Removed all links */}
           <div className="hidden md:flex space-x-8">
-            <a href="#features" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Services</a>
-            <a href="#testimonials" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Testimonials</a>
-            <a href="#pricing" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Packages</a>
-            <a href="#content" className="text-productify-dark hover:text-productify-blue transition-colors duration-200">Content</a>
+            {/* No navigation links */}
           </div>
 
-          {/* Call to Action Button */}
+          {/* Call to Action Button - Removed */}
           <div className="hidden md:block">
-            <a
-              href="#cta"
-              className="px-5 py-2.5 bg-productify-blue text-white rounded-md hover:bg-blue-600 transition-all duration-200 shadow-sm hover:shadow"
-            >
-              Contact Me
-            </a>
+            {/* No CTA button */}
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* Mobile Menu Button - Removed since there's no menu content */}
           <button
             className="md:hidden text-productify-dark"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            style={{ visibility: 'hidden' }}
           >
             {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu - Empty but kept for structure */}
       <div
         className={cn(
           'fixed inset-0 bg-white z-40 pt-20 px-6 transition-transform duration-300 ease-in-out md:hidden',
@@ -71,41 +64,7 @@ const Navbar = () => {
         )}
       >
         <div className="flex flex-col space-y-6 text-center">
-          <a 
-            href="#features" 
-            className="text-productify-dark hover:text-productify-blue py-2 text-lg"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Services
-          </a>
-          <a 
-            href="#testimonials" 
-            className="text-productify-dark hover:text-productify-blue py-2 text-lg"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Testimonials
-          </a>
-          <a 
-            href="#pricing" 
-            className="text-productify-dark hover:text-productify-blue py-2 text-lg"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Packages
-          </a>
-          <a 
-            href="#content" 
-            className="text-productify-dark hover:text-productify-blue py-2 text-lg"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Content
-          </a>
-          <a
-            href="#cta"
-            className="px-5 py-2.5 bg-productify-blue text-white rounded-md hover:bg-blue-600 transition-all duration-200 mx-auto"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Contact Me
-          </a>
+          {/* No mobile menu items */}
         </div>
       </div>
     </nav>

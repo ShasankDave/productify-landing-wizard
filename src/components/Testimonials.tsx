@@ -106,7 +106,7 @@ const Testimonials = () => {
             className="flex overflow-x-auto pb-8 gap-6 hide-scrollbar snap-x snap-mandatory"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
-            <style jsx>{`
+            <style>{`
               .hide-scrollbar::-webkit-scrollbar {
                 display: none;
               }
