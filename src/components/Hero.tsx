@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-10 opacity-0 animate-fade-in" style={{ animationDelay: '100ms' }}>
-            <span className="gradient-text">AI Strategy</span> & Product Management Expertise
+            <span className="gradient-text">Turn AI ideas</span> into real products
           </h1>
           
           <div className="opacity-0 animate-fade-in" style={{ animationDelay: '300ms' }}>
